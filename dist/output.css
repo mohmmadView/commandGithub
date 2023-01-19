@@ -1871,12 +1871,12 @@ video {
   line-height: 1.75rem;
 }
 
-.font-normal {
-  font-weight: 400;
-}
-
 .font-bold {
   font-weight: 700;
+}
+
+.font-normal {
+  font-weight: 400;
 }
 
 .uppercase {
@@ -2317,6 +2317,10 @@ video {
 .content-\[\'this-is-also-valid\]-weirdly-enough\'\] {
   --tw-content: 'this-is-also-valid]-weirdly-enough';
   content: var(--tw-content);
+}
+
+body{
+  background-image: url("./backgrand/PolygonLuminary.svg");
 }
 
 .hover\:divide-y-2:hover > :not([hidden]) ~ :not([hidden]) {
